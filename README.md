@@ -1,5 +1,5 @@
 # Blogspot Template 2016 Fast Loading Responsive Mobile SEO Friendly Valid HTML5 CSS3
-- url : https://blogger-template-fast-loading.blogspot.com
+- URL : https://blogger-template-fast-loading.blogspot.com
 - Mobile-Friendly Test : https://www.google.com/webmasters/tools/mobile-friendly/?url=https%3A%2F%2Fblogger-template-fast-loading.blogspot.com
 - PageSpeed Insights : https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fblogger-template-fast-loading.blogspot.com
 - Structured Data Testing Tool : https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fblogger-template-fast-loading.blogspot.com
