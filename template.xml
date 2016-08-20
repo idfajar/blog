@@ -966,7 +966,7 @@ function downloadJSAtOnload2(){var a=document.createElement("script");a.src="htt
 <b:if cond='data:post.snippet'><data:post.snippet/></b:if>
 </div>
 </div>
-<div style='clear: both;'/>
+<div class='clear'/>
 </a>
 <div class='mobile-index-comment'>
 <b:include cond='data:blog.pageType != &quot;static_page&quot;                          and data:post.allowComments                          and data:post.numComments != 0' data='post' name='comment_count_picker'/>
@@ -1037,7 +1037,7 @@ function downloadJSAtOnload2(){var a=document.createElement("script");a.src="htt
 </div>
 <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
 <data:post.body/>
-<div style='clear: both;'/>
+<div class='clear'/>
 </div>
 <div class='post-footer'>
 <div class='post-footer-line post-footer-line-1'>
@@ -1280,14 +1280,14 @@ function downloadJSAtOnload2(){var a=document.createElement("script");a.src="htt
 </b:if>
 </b:if>
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
-<b:if cond='data:post.allowComments'><div class='komen'><i aria-hidden='true' class='fa fa-comments-o'/> <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick' itemprop='discussionUrl'><b:if cond='data:post.numComments == 0'>Tidak Ada Tanggapan</b:if><b:if cond='data:post.numComments == 1'>1 Tanggapan</b:if><b:if cond='data:post.numComments &gt;= 2'><data:post.numComments/> Tanggapan</b:if></a></div></b:if><div style='clear: both;'/>
+<b:if cond='data:post.allowComments'><div class='komen'><i aria-hidden='true' class='fa fa-comments-o'/> <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick' itemprop='discussionUrl'><b:if cond='data:post.numComments == 0'>Tidak Ada Tanggapan</b:if><b:if cond='data:post.numComments == 1'>1 Tanggapan</b:if><b:if cond='data:post.numComments &gt;= 2'><data:post.numComments/> Tanggapan</b:if></a></div></b:if><div class='clear'/>
 <data:post.body/>
 </b:if>
 <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
 <data:post.body/>
 <div class='postmeta'><span class='post-author vcard' itemprop='author' itemscope='itemscope' itemtype='https://schema.org/Person'><span class='fn author'>By <a class='g-profile' expr:href='data:post.authorProfileUrl' rel='author' title='Author Profile'><span itemprop='name'><data:post.author/></span></a></span></span><span class='clock'> on <a class='updated' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='updated' expr:title='data:post.timestampISO8601' itemprop='datePublished dateModified'><data:post.timestamp/></abbr></a></span></div><div class='clear'/>
 </b:if>
-<div style='clear: both;'/>
+<div class='clear'/>
 </div>
 <b:if cond='data:post.hasJumpLink'>
 <div class='jump-link'>
