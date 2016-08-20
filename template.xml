@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <HTML dir='ltr' lang='en'>
 &lt;head&gt;
-<link href='https://plus.google.com/u/0/109449129889972584978' rel='Publisher'/>
+<link href='https://plus.google.com/u/0/XXXXXXXXXXXXXXXXXXX' rel='Publisher'/>
 <meta content='width=device-width, initial-scale=1' name='viewport'/>
 <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
 <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
@@ -76,9 +76,9 @@
 <meta content='Website On Page SEO Grading GRADE A' property='twitter:image:alt'/>
 </b:if>
 </b:if>
-<meta content='Joe Bloggs' name='Author'/>
-<meta content='321607401507929' property='fb:admins'/>
-<meta content='@_joe_bloggs' name='twitter:site'/>
+<meta content='XXXXXXXXXXXXXXXXXXX' name='Author'/>
+<meta content='XXXXXXXXXXXXXXXXXXX' property='fb:admins'/>
+<meta content='XXXXXXXXXXXXXXXXXXX' name='twitter:site'/>
 <meta content='noodp,noydir' name='robots'/>
 <meta content='XXXXXXXXXXXXXXXXXXX' name='google-site-verification'/>
 <meta content='XXXXXXXXXXXXXXXXXXX' name='msvalidate.01'/>
@@ -522,11 +522,11 @@ span.showdates{font-size:16px;margin:10px 0 0}
 <div class='sos-profil' itemprop='mainEntity' itemscope='itemscope' itemtype='https://schema.org/Person'>
 <link expr:href='data:blog.homepageUrl' itemprop='url'/>
 <ul>
-<li><a href='https://www.facebook.com/joeblogspoters' itemprop='sameAs' target='_blank' title='Facebook'><i class='fa fa-facebook fa-lg'/></a></li>
-<li><a href='https://twitter.com/_joe_bloggs' itemprop='sameAs' target='_blank' title='Twitter'><i class='fa fa-twitter fa-lg'/></a></li>
-<li><a href='https://plus.google.com/u/0/109449129889972584978' itemprop='sameAs' target='_blank' title='Google+'><i class='fa fa-google-plus fa-lg'/></a></li>
-<li><a href='https://github.com/joebloggss' itemprop='sameAs' target='_blank' title='Github'><i class='fa fa-github fa-lg'/></a></li>
-<li><a href='https://www.youtube.com/channel/UC3f9pSi-Z6ukl9ebVC5DkNA' itemprop='sameAs' target='_blank' title='Youtube'><i class='fa fa-youtube fa-lg'/></a></li>
+<li><a href='https://www.facebook.com/XXXXXXXXXXXXXXXXXXX' itemprop='sameAs' target='_blank' title='Facebook'><i class='fa fa-facebook fa-lg'/></a></li>
+<li><a href='https://twitter.com/XXXXXXXXXXXXXXXXXXX' itemprop='sameAs' target='_blank' title='Twitter'><i class='fa fa-twitter fa-lg'/></a></li>
+<li><a href='https://plus.google.com/u/0/XXXXXXXXXXXXXXXXXXX' itemprop='sameAs' target='_blank' title='Google+'><i class='fa fa-google-plus fa-lg'/></a></li>
+<li><a href='https://github.com/XXXXXXXXXXXXXXXXXXX' itemprop='sameAs' target='_blank' title='Github'><i class='fa fa-github fa-lg'/></a></li>
+<li><a href='https://www.youtube.com/channel/XXXXXXXXXXXXXXXXXXX' itemprop='sameAs' target='_blank' title='Youtube'><i class='fa fa-youtube fa-lg'/></a></li>
 </ul>
 <div class='clear'/>
 </div>
