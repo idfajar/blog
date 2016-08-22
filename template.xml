@@ -1287,9 +1287,15 @@ function downloadJSAtOnload2(){var a=document.createElement("script");a.src="htt
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 <b:if cond='data:post.allowComments'><div class='komen'><i aria-hidden='true' class='fa fa-comments-o'/> <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick' itemprop='discussionUrl'><b:if cond='data:post.numComments == 0'>Tidak Ada Tanggapan</b:if><b:if cond='data:post.numComments == 1'>1 Tanggapan</b:if><b:if cond='data:post.numComments &gt;= 2'><data:post.numComments/> Tanggapan</b:if></a></div></b:if><div class='clear'/>
 <data:post.body/>
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://ylx-3.com/banner.php?section=General&amp;pub=553534&amp;format=728x90&amp;ga=g&amp;https=1&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://ylx-3.com/slider.php?section=General&amp;pub=553534&amp;ga=g&amp;side=random&amp;https=1&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;//ylx-4.com/popup.php?section=General&amp;pub=553534&amp;ga=g&quot;&gt;&lt;/script&gt;
 </b:if>
 <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
 <data:post.body/>
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://ylx-3.com/banner.php?section=General&amp;pub=553534&amp;format=728x90&amp;ga=g&amp;https=1&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://ylx-3.com/slider.php?section=General&amp;pub=553534&amp;ga=g&amp;side=random&amp;https=1&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;//ylx-4.com/popup.php?section=General&amp;pub=553534&amp;ga=g&quot;&gt;&lt;/script&gt;
 <div class='postmeta'><span class='post-author vcard' itemprop='author' itemscope='itemscope' itemtype='https://schema.org/Person'><span class='fn author'>By <a class='g-profile' expr:href='data:post.authorProfileUrl' rel='author' title='Author Profile'><span itemprop='name'><data:post.author/></span></a></span></span><span class='clock'> on <a class='updated' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='updated' expr:title='data:post.timestampISO8601' itemprop='datePublished dateModified'><data:post.timestamp/></abbr></a></span></div><div class='clear'/>
 </b:if>
 <div class='clear'/>
