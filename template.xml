@@ -109,7 +109,7 @@ ul,li{list-style: none;}
 /* DASAR */
 body{background:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/4QBgRXhpZgAASUkqAAgAAAACADEBAgAHAAAAJgAAAGmHBAABAAAALgAAAAAAAABHb29nbGUAAAMAAJAHAAQAAAAwMjIwAqAEAAEAAABAAAAAA6AEAAEAAABAAAAAAAAAAP/bAEMACAUGBwYFCAcGBwkICAkMEwwMCwsMGBESDhMcGB0dGxgbGh8jLCUfISohGhsmNCcqLi8xMjEeJTY6NjA6LDAxMP/AAAsIAEAAQAEBEQD/xAAXAAEBAQEAAAAAAAAAAAAAAAABAAIH/8QAIhAAAgICAgICAwAAAAAAAAAAAAERITFBAlESYXGBkaHw/9oACAEBAAA/AO6lAzoJNcc+LwzOynRboEIcg4yk23ZrjmahbJ3ZcpKIHBm5Kh+CUvZUXk9ZKuxTx/SULMA09FC2yhRQrEGbl+h49uQlQa17gLLI8eLeQjpisWvyDTfQ1l/ZJeWyiNfsNjNQU1kPsYySmHOgmK0UssWP2UyRcVj2Hl0SG8V7C3orIQwf/9k=')repeat fixed;font-weight:400;line-height:1.625;font-family:'Arif',sans-serif;font-size:14px;margin:0;padding:0;color:#555;}
 .navbar,.blog-feeds,.feed-links,#backlinks-container{display:none}.breadcrumbs{padding:20px;margin-bottom:10px;margin-top:0px;color:#5B5B5B;border-bottom:1px solid #eee;}.breadcrumbs span a{color:#5b5b5b;}.breadcrumbs span a:hover{color:#09c;}
-.post-thumbnail{display:none}
+.post-thumbnail{width:150px;height:150px;float:left;margin:0 10px 0 0}
 .post-body{padding:10px}
 .post-snippet{font-size:15px;margin-bottom:10px}
 .diriku{width:1050px;margin:0 auto}
