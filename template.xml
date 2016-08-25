@@ -1286,12 +1286,10 @@ function downloadJSAtOnload2(){var a=document.createElement("script");a.src="htt
 </b:if>
 </b:if>
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
-&lt;script type=&quot;text/javascript&quot; src=&quot;//ylx-4.com/popup.php?section=General&amp;pub=553534&amp;ga=g&quot;&gt;&lt;/script&gt;
 <b:if cond='data:post.allowComments'><div class='komen'><i aria-hidden='true' class='fa fa-comments-o'/> <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick' itemprop='discussionUrl'><b:if cond='data:post.numComments == 0'>Tidak Ada Tanggapan</b:if><b:if cond='data:post.numComments == 1'>1 Tanggapan</b:if><b:if cond='data:post.numComments &gt;= 2'><data:post.numComments/> Tanggapan</b:if></a></div></b:if><div class='clear'/>
 <data:post.body/>
 </b:if>
 <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
-&lt;script type=&quot;text/javascript&quot; src=&quot;//ylx-4.com/popup.php?section=General&amp;pub=553534&amp;ga=g&quot;&gt;&lt;/script&gt;
 <data:post.body/>
 <div class='postmeta'><span class='post-author vcard' itemprop='author' itemscope='itemscope' itemtype='https://schema.org/Person'><span class='fn author'>By <a class='g-profile' expr:href='data:post.authorProfileUrl' rel='author' title='Author Profile'><span itemprop='name'><data:post.author/></span></a></span></span><span class='clock'> on <a class='updated' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='updated' expr:title='data:post.timestampISO8601' itemprop='datePublished dateModified'><data:post.timestamp/></abbr></a></span></div><div class='clear'/>
 </b:if>
@@ -1732,21 +1730,6 @@ function redirectlabel(numberpage){jsonstart=(numberpage-1)*perPage;noPage=numbe
 function finddatepost(root){post=root.feed.entry[0];var timestamp1=post.published.$t.substring(0,19)+post.published.$t.substring(23,29);var timestamp=encodeURIComponent(timestamp1);if(currentPage=="page"){var pAddress="/search?updated-max="+timestamp+"&max-results="+perPage+"#PageNo="+noPage}else{var pAddress="/search/label/"+postLabel+"?updated-max="+timestamp+"&max-results="+perPage+"#PageNo="+noPage}
 location.href=pAddress}
 /*]]>*/
-</script>
-<script>
-//<![CDATA[
- function downloadJSAtOnload() {
- var element = document.createElement("script");
- element.src = "//ylx-4.com/popup.php?section=General&pub=553534&ga=g";
- document.body.appendChild(element);
- }
- if (window.addEventListener)
- window.addEventListener("load", downloadJSAtOnload, false);
- else if (window.attachEvent)
- window.attachEvent("onload", downloadJSAtOnload);
- else window.onload = downloadJSAtOnload;
-//]]>
-</script>
-</b:if></b:if>
+</script></b:if></b:if>
 &lt;!--</body>--&gt;&lt;/body&gt;
 </HTML>
