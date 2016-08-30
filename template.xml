@@ -522,6 +522,7 @@ span.showdates{font-size:16px;margin:10px 0 0}
 <li><a href='../p/privacy.html' itemprop='url' title='Privacy'><span itemprop='name'>Privacy</span></a></li>
 <li><a href='../p/sitemap.html' itemprop='url' title='Sitemap'><span itemprop='name'>Sitemap</span></a></li>
 <li><a href='../p/advertise.html' itemprop='url' title='Advertise'><span itemprop='name'>Advertise</span></a></li>
+<li><a class='trigger2' href='#' itemprop='url' onclick='window.open(&apos;https://translate.google.com/translate?u=&apos;+encodeURIComponent(location.href)+&apos;&amp;amp;langpair=id%7cen&amp;amp;hl=en&apos;); return false;' rel='nofollow' target='_blank' title='English'><span itemprop='name'>Translate</span></a></li>
 </ul>
 <div class='clear'/>
 </nav>
@@ -533,6 +534,9 @@ span.showdates{font-size:16px;margin:10px 0 0}
 <li><a href='https://plus.google.com/XXXXXXXXXXXXXXXXXXX' itemprop='sameAs' target='_blank' title='Google+'><i class='fa fa-google-plus fa-lg'/></a></li>
 <li><a href='https://github.com/XXXXXXXXXXXXXXXXXXX' itemprop='sameAs' target='_blank' title='Github'><i class='fa fa-github fa-lg'/></a></li>
 <li><a href='https//www.youtube.com/channel/XXXXXXXXXXXXXXXXXXX' itemprop='sameAs' target='_blank' title='Youtube'><i class='fa fa-youtube fa-lg'/></a></li>
+<li><form action='/search' id='search-top' itemprop='potentialAction' itemscope='itemscope' itemtype='https://schema.org/SearchAction' method='get'>
+<meta content='/search?q={q}' itemprop='target'/>
+<input itemprop='query-input' name='q' placeholder='Search...' required='required' size='40' type='text'/><input id='search-button-top' type='submit' value='GO'/></form></li>
 </ul>
 <div class='clear'/>
 </div>
