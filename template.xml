@@ -3,11 +3,17 @@
 <HTML dir='ltr' lang='en'>
 &lt;head&gt;
 <script>
-//<![CDATA[
-var str= window.location.href.toString(); if ((str.indexOf(‘.com/’))==’-1') { var str1=str.substring(str.lastIndexOf(“.blogspot.”)); if (str1.indexOf(‘/’)==’-1') { var str2=str1; } else { var str2=str1.substring(0,str1.indexOf(‘/’)+1); } window.location.href =window.location.href.toString().replace(str2,’.blogspot.com/ncr/’); }
-//]]>
+function check_secure() {
+var secssl = /^https/i;
+var blog = document.location.hostname;
+var slug = document.location.pathname;
+var subs = window.location.search;
+if (!window.location.origin.match(secssl)) {
+window.location = "https://" + blog + slug + subs;
+}
+}
+check_secure();
 </script>
-<base target='_blank'/>
 <link href='https://plus.google.com/XXXXXXXXXXXXXXXXXXX' rel='Publisher'/>
 <meta content='width=device-width, initial-scale=1' name='viewport'/>
 <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
@@ -1734,6 +1740,13 @@ function redirectlabel(numberpage){jsonstart=(numberpage-1)*perPage;noPage=numbe
 function finddatepost(root){post=root.feed.entry[0];var timestamp1=post.published.$t.substring(0,19)+post.published.$t.substring(23,29);var timestamp=encodeURIComponent(timestamp1);if(currentPage=="page"){var pAddress="/search?updated-max="+timestamp+"&max-results="+perPage+"#PageNo="+noPage}else{var pAddress="/search/label/"+postLabel+"?updated-max="+timestamp+"&max-results="+perPage+"#PageNo="+noPage}
 location.href=pAddress}
 /*]]>*/
-</script></b:if></b:if>
+</script>
+<script>
+//<![CDATA[
+$("img").each(function(){$(this).attr("data-src",$(this).attr("src"));$(this).attr("src","data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=")});
+function init(){var e=document.getElementsByTagName("img");for(var t=0;t<e.length;t++){if(e[t].getAttribute("data-src")){e[t].setAttribute("src",e[t].getAttribute("data-src"))}}}window.onload=init;
+//]]>
+</script>
+</b:if></b:if>
 &lt;!--</body>--&gt;&lt;/body&gt;
 </HTML>
