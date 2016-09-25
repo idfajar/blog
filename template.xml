@@ -1747,6 +1747,11 @@ $("img").each(function(){$(this).attr("data-src",$(this).attr("src"));$(this).at
 function init(){var e=document.getElementsByTagName("img");for(var t=0;t<e.length;t++){if(e[t].getAttribute("data-src")){e[t].setAttribute("src",e[t].getAttribute("data-src"))}}}window.onload=init;
 //]]>
 </script>
+<script>
+//<![CDATA[
+$("a").filter(function(){return this.hostname&&this.hostname!==location.hostname}).attr('rel', 'nofollow').attr('target', '_blank');
+//]]>
+</script>
 </b:if></b:if>
 &lt;!--</body>--&gt;&lt;/body&gt;
 </HTML>
